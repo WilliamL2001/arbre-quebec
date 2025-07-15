@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
+</head>
+<body>
+    <h1>Arbres du Québec !</h1>
+
+    <nav>
+        <a href="/feuillus">Feuillus</a>
+        <a href="/conifères">Conifères</a>
+    </nav>
+
+    <img src="{{ url_for('static', filename='accueil_pic1.jpg') }}" alt="Image" class="image-accueil">
+    <img src="{{ url_for('static', filename='accueil_pic2.jpg') }}" alt="Image" class="image-accueil2">
+    <img src="{{ url_for('static', filename='accueil_pic3.jpg') }}" alt="Image" class="image-accueil3">
+
+</body>
+
+
+</html>

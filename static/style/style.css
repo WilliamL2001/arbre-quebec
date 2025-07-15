@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+}
+
+.image-accueil {
+    width: 20%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-accueil2 {
+    width: 20%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-accueil3 {
+    width: 20%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -385px;
+    margin-bottom: 275px;
+    margin-right: 0px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.image-sapin1 {
+    width: 20%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 275px;
+    margin-right: 0px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Style général pour tous les liens */
+a {
+    color: #1a73e8;           /* couleur bleue moderne */
+    text-decoration: underline;    /* enlève le soulignement */
+    font-weight: 600;         /* rend le texte un peu plus gras */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* police moderne et lisible */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* transition douce */
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+a:hover {
+    color: #0b4da0;           /* couleur plus foncée au survol */
+    text-shadow: 0 0 5px rgba(11, 77, 160, 0.7); /* léger halo */
+    cursor: pointer;          /* curseur pointeur */
+
+}
+
+a:active {
+    color: #07407a;           /* couleur encore plus foncée quand on clique */
+}
+
